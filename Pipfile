@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "*"
+h5py = "*"
+astropy = "*"
+specutils = "*"
+pandas = "*"
+numpy = "*"
+mypy = "*"
+pydantic = "*"
+ccdproc = "*"
+ipywidgets = "*"
+ipython = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
